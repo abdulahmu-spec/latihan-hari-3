@@ -20,7 +20,15 @@
       <a href="#">Administration</a>
       <a href="#">Setup</a>
     </nav>
-    <button class="header__admin-btn">Admin ▾</button>
+    <!-- <button class="header__admin-btn">Admin ▾</button> -->
+    <div class="admin-dropdown">
+      <button class="header__admin-btn" id="adminBtn">Admin ▾</button>
+      <div class="admin-dropdown__menu" id="adminMenu">
+        <a href="#">Profile</a>
+        <a href="#">Settings</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
   </header>
   <div class="dashboard-content">
     <section class="stat-cards">
@@ -105,5 +113,6 @@
       </div>
     </div>
   </div>
+    <script src="script.js"></script>
 </body>
 </html>
